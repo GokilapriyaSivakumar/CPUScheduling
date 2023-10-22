@@ -1,0 +1,187 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+}
+
+body {
+  margin: 10px 20px;
+}
+
+/* Center the title and add some styling */
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+/* Style the preferences list */
+.preferences {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.preferences li {
+  margin: 10px 0;
+}
+
+/* Style the priority toggle button */
+#priority-toggle-btn {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 0;
+  width: 60px;
+  background-color: #0074D9; /* Button background color */
+  color: #FFF; /* Button text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#priority-toggle-btn:hover {
+  background-color: #0056a5; /* Hover color */
+}
+
+/* Style the algorithms form */
+#algorithms-form {
+  text-align: center;
+}
+
+#algo {
+  padding: 5px;
+}
+
+/* Style the main table */
+.main-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.main-table th,
+.main-table td {
+  border: 2px solid black; /* Table cell border */
+  padding: 0 2px;
+  text-align: center;
+}
+
+table input {
+  text-align: center;
+  border: none;
+  width: 100px;
+}
+
+.process-btn {
+  height: 5px;
+}
+
+.process-btn button {
+  background-color: #FF5733;
+  height: 20px;
+  width: 20px;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  font-weight: bolder;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #62bc5a;
+  color: rgb(18, 22, 33);
+  border: none;
+  cursor: pointer;
+}
+
+.center-buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.center-buttons .add-btn,
+.center-buttons .remove-btn {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.center-buttons #calculate,
+.center-buttons #reset {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.center-buttons .add-btn,
+.center-buttons .remove-btn,
+.center-buttons #calculate,
+.center-buttons #reset {
+  background-color: #0074D9;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.center-buttons .add-btn:hover,
+.center-buttons .remove-btn:hover,
+.center-buttons #calculate:hover,
+.center-buttons #reset:hover {
+  background-color: #0056a5;
+}
+
+#algorithm-chart-div {
+  width: 80%;
+  height: 50%;
+}
+
+#round-robin-chart-div {
+  height: 40%;
+  width: 80%;
+}
+
+#gantt-chart {
+  height: 100px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#output {
+  margin-top: 20px;
+}
+
+thead {
+  font-weight: bold;
+}
+#context-switch-div {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#context-switch-div label {
+  font-weight: bold;
+}
+
+#context-switch-div input {
+  text-align: center;
+  border: none;
+  width: 100px;
+}
+.center-priority {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#time-quantum-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
